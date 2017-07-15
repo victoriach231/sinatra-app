@@ -33,14 +33,11 @@ In terminal, type in the following command and notice the output.  Follow the li
 
 ```
  $ ruby ./app.rb -p $PORT -o $IP
- =>
- == Sinatra (v2.0.0) has taken the stage on 4567 for development with backup from Puma
-Puma starting in single mode...
-* Version 3.6.2 (ruby 2.3.1-p112), codename: Sleepy Sunday Serenity
-* Min threads: 0, max threads: 16
-* Environment: development
-* Listening on tcp://localhost:4567
-Use Ctrl-C to stop
+
+[2017-07-15 13:18:34] INFO  WEBrick 1.3.1
+[2017-07-15 13:18:34] INFO  ruby 2.3.0 (2015-12-25) [x86_64-linux]
+== Sinatra (v2.0.0) has taken the stage on 8080 for development with backup from WEBrick
+[2017-07-15 13:18:34] INFO  WEBrick::HTTPServer#start: pid=3814 port=8080
 ```
 
 Now change the end of your server to `/hello`.
